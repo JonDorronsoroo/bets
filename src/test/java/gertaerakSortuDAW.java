@@ -30,7 +30,7 @@ public class gertaerakSortuDAW {
 
 	private Event ev;
 
-	@Test
+	/*@Test
 	// kaxa txuriko lehenengo proba
 
 	public void test1() {
@@ -51,7 +51,7 @@ public class gertaerakSortuDAW {
 
 		assertEquals(a, false);
 
-	}
+	}*/
 
 	@Test
 	// kaxa txurko 3. proba: sut-ari deia egiterakoan "a-b" deskripzioa duen
@@ -98,6 +98,9 @@ public class gertaerakSortuDAW {
 
 		}
 
+
+
 	}
+	
 
 }

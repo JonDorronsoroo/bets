@@ -19,7 +19,7 @@ import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
 import test.businessLogic.TestFacadeImplementation;
 
-public class gertaerakSortuINTTest {
+public class gertaerakSortuINT {
 	static BLFacadeImplementation sut;
 	static TestFacadeImplementation testBL;
 
@@ -79,6 +79,7 @@ public class gertaerakSortuINTTest {
 	@Test
 	// sut.createQuestion: The event has NOT one question with a queryText.
 	public void test2() {
+		
 		try {
 
 			// define paramaters
@@ -121,6 +122,7 @@ public class gertaerakSortuINTTest {
 			boolean b = testBL.removeEvent(ev);
 			System.out.println("Finally " + b);
 		}
+		
 	}
 
 }

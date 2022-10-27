@@ -39,6 +39,7 @@ import exceptions.QuoteAlreadyExist;
 /**
  * It implements the data access to the objectDb database
  */
+//I have a comment
 public class DataAccess  {
 	protected static EntityManager  db;
 	protected static EntityManagerFactory emf;
