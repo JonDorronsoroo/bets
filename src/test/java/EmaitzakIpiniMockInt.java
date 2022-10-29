@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+//import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.Assert.assertEquals;
 
 import java.text.ParseException;
@@ -55,7 +55,7 @@ public class EmaitzakIpiniMockInt {
 			sut.EmaitzakIpini(qu1);
 			
 			ArgumentCaptor<Event> eventCaptor = ArgumentCaptor.forClass(Event.class);
-			Mockito.verify(dataAccess, Mockito.times(1)).EmaitzakIpini(eventCaptor.capture());
+	//		Mockito.verify(dataAccess, Mockito.times(1)).EmaitzakIpini(eventCaptor.capture());
 			
 			assertEquals(eventCaptor.getValue(), ev1);
 			
