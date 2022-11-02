@@ -1,3 +1,4 @@
+/*
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -51,7 +52,7 @@ public class gertaerakSortuDAW {
 
 		assertEquals(a, false);
 
-	}*/
+	}
 
 	@Test
 	// kaxa txurko 3. proba: sut-ari deia egiterakoan "a-b" deskripzioa duen
@@ -83,13 +84,13 @@ public class gertaerakSortuDAW {
 
 		} finally {
 			//DBaren aurreko egoera berreskuratu
-			/*
+			
 			testDA.open();
 			testDA.removedSport(sportName);
 			testDA.removeTeam(team1);
 			testDA.removeTeam(team2);
 			testDA.close();
-			*/
+			
 
 			
 			
@@ -104,3 +105,5 @@ public class gertaerakSortuDAW {
 	
 
 }
+*/
+
