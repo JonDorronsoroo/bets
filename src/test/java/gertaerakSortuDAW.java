@@ -1,4 +1,4 @@
-/*
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -31,7 +31,7 @@ public class gertaerakSortuDAW {
 
 	private Event ev;
 
-	/*@Test
+	@Test
 	// kaxa txuriko lehenengo proba
 
 	public void test1() {
@@ -83,6 +83,7 @@ public class gertaerakSortuDAW {
 			e.printStackTrace();
 
 		} finally {
+			/*
 			//DBaren aurreko egoera berreskuratu
 			
 			testDA.open();
@@ -90,6 +91,7 @@ public class gertaerakSortuDAW {
 			testDA.removeTeam(team1);
 			testDA.removeTeam(team2);
 			testDA.close();
+			*/
 			
 
 			
@@ -105,5 +107,5 @@ public class gertaerakSortuDAW {
 	
 
 }
-*/
+
 
