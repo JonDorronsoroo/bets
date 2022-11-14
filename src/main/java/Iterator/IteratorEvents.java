@@ -13,13 +13,12 @@ public class IteratorEvents implements ExtendedIterator {
 		this.eventos = eventos;
 		index = 0;
 	}
-	
 
 	@Override
 	public boolean hasNext() {
 		// TODO Auto-generated method stub
-		index++;
-		if (eventos.get(index) != null) {
+
+		if (index < eventos.size()-1) {
 			return true;
 		}
 		return false;
@@ -28,23 +27,27 @@ public class IteratorEvents implements ExtendedIterator {
 	@Override
 	public Object next() {
 		// TODO Auto-generated method stub
+
+		Event e = eventos.get(index);
 		index++;
-		return eventos.get(index);
+		return e;
 	}
 
 	@Override
 	public Object previous() {
 		// TODO Auto-generated method stub
+
+		Event e = eventos.get(index);
 		index--;
-		return eventos.get(index);
+		return e;
 
 	}
 
 	@Override
 	public boolean hasPrevious() {
 		// TODO Auto-generated method stub
-		index--;
-		if (eventos.get(index) != null) {
+
+		if (index > 0 -1) {
 			return true;
 		}
 		return false;
@@ -53,17 +56,15 @@ public class IteratorEvents implements ExtendedIterator {
 	@Override
 	public void goFirst() {
 		// TODO Auto-generated method stub
-		index = 0; 
+		index = 0;
 
 	}
 
 	@Override
 	public void goLast() {
 		// TODO Auto-generated method stub
-		index = eventos.size()-1;
-		
+		index = eventos.size() - 1;
 
-		
 	}
 
 }
